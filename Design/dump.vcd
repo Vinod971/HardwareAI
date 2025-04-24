@@ -1,0 +1,38 @@
+$date
+	Sun Apr 20 17:18:53 2025
+$end
+$version
+	QuestaSim Version 2021.3_1
+$end
+$timescale
+	1ns
+$end
+
+$scope module top $end
+
+$scope task WaitForReady $end
+$upscope $end
+
+$scope task ApplyOperands $end
+$upscope $end
+
+$scope task read_matrices $end
+$var integer 32 ! mfcc_file $end
+$var integer 32 " weight_file $end
+$upscope $end
+
+$scope module SM $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+$end
+#150
+b10000000000000000000000000000011 !
+b10000000000000000000000000000011 "
