@@ -1,0 +1,57 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:40:53 on Apr 07,2025
+# vlog -reportprogress 300 lif_neuron.sv 
+# -- Compiling module lif_neuron
+# 
+# Top level modules:
+# 	lif_neuron
+# End time: 10:40:53 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:40:53 on Apr 07,2025
+# vlog -reportprogress 300 fully_connected_neural_network_synapses.sv 
+# -- Compiling module fully_connected_neural_network
+# ** Warning: fully_connected_neural_network_synapses.sv(13): (vlog-13314) Defaulting port 'synaptic_weights' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	fully_connected_neural_network
+# End time: 10:40:53 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:40:53 on Apr 07,2025
+# vlog -reportprogress 300 parameter_register_file_weights.sv 
+# -- Compiling module parameter_register_file
+# ** Error (suppressible): parameter_register_file_weights.sv(50): (vlog-2244) Variable 'idx' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error (suppressible): parameter_register_file_weights.sv(51): (vlog-2244) Variable 'i' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error (suppressible): parameter_register_file_weights.sv(52): (vlog-2244) Variable 'j' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error (suppressible): parameter_register_file_weights.sv(69): (vlog-2244) Variable 'idx_r' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error (suppressible): parameter_register_file_weights.sv(70): (vlog-2244) Variable 'i_r' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error (suppressible): parameter_register_file_weights.sv(71): (vlog-2244) Variable 'j_r' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# End time: 10:40:54 on Apr 07,2025, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+# ** Error: /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 3
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog parameter_register_file_weights.sv"
