@@ -1,0 +1,103 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/u/vinodk/Documents/HardwareAI/Project/Project/Design
+T_opt
+!s110 1748467577
+V1aGeW=ID2f6SG;^IBH:l@3
+04 3 4 work top fast 0
+=1-525400b63b2a-68377f79-1fd68-2fe4
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.3_1;73
+vFSM
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1748467564
+!i10b 1
+!s100 K68mkjQ1U6D]?_JQiNHNC3
+If`9:Jj>DGNP@2i[d`B<LV1
+S1
+R1
+Z5 w1746051736
+Z6 8matrixmul.sv
+Z7 Fmatrixmul.sv
+!i122 12
+L0 98 72
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+Z10 !s108 1748467564.000000
+Z11 !s107 top.sv|matrixmul.sv|
+Z12 !s90 -source|-lint|matrixmul.sv|top.sv|
+!i113 0
+Z13 o-source -lint -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@f@s@m
+vSequentialMultiplier
+R3
+R4
+!i10b 1
+!s100 ^_JXB=CIc`1[E07j9_:mO2
+IkL_J`2B[6Q6zi7?]]n22b3
+S1
+R1
+R5
+R6
+R7
+!i122 12
+L0 4 88
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+n@sequential@multiplier
+vtop
+R3
+R4
+!i10b 1
+!s100 1i4S=f_RjeIk2ol@RPcm20
+IZ?YPa5D<i<T5:LB]YoO>32
+S1
+R1
+w1745715176
+8top.sv
+Ftop.sv
+!i122 12
+L0 1 212
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
