@@ -1,0 +1,7 @@
+
+Instruction Report for Function: matrix_multiply
+
+Arithmetic Instructions: 3
+Load Instructions: 16
+Store Instructions: 3
+Function Calls: 5
