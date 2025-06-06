@@ -1,17 +1,13 @@
-# DeepSpeech AI
+# Hardware for AI and ML
 
-Welcome to **DeepSpeech AI**, a comprehensive project exploring the intersection of artificial intelligence and hardware acceleration. This repository is organized into weekly challenges (WC1–WC10), each delving into key concepts like matrix computation, CUDA programming, neural networks, and digital hardware design.
+Welcome to the coursework repository for **Hardware for AI and ML**, a practical journey through software and hardware co-design, verification, and synthesis tasks tailored for machine learning applications.
 
 ---
 
-## 🧠 Project Vision
+## 📌 Project Spotlight: DeepSpeech AI
 
-**DeepSpeech AI** aims to bridge the gap between AI theory and efficient hardware implementation. Through hands-on experiments and simulations, this project equips students and researchers with practical experience in:
-- Parallel and GPU programming
-- AI algorithm implementation
-- Hardware design with SystemVerilog
-- Memristor and neuromorphic computing
-- Performance benchmarking and analysis
+This repository includes work toward the project **DeepSpeech AI**, where both software and hardware components have been implemented, verified, and synthesized to simulate AI operations efficiently.
+
 
 ---
 
