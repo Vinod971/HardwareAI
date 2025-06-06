@@ -12,7 +12,7 @@ This week includes a Jupyter notebook task, likely involving matrix computation 
 **How to Run**:
 
 1. Open in Jupyter Lab or Google Colab:
-   - [Open in Colab](https://colab.research.google.com/github/Vinod971/HardwareAI/blob/main/WC8/Matrix.ipynb) *(adjust link if needed)*
+   - [Open in Colab](https://colab.research.google.com/github/Vinod971/HardwareAI/blob/main/WC8/Matrix.ipynb) 
 
 2. Alternatively, run locally:
    ```bash
