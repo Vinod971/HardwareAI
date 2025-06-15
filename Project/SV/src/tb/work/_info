@@ -1,0 +1,175 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/vinodk/common/Documents/HardwareAI/Project/Project/LSTMdesign.sv/src/tb
+vFSM
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1749842924
+!i10b 1
+!s100 K68mkjQ1U6D]?_JQiNHNC3
+I^m^_L`JEd5G<4n_7kEaNS0
+S1
+R1
+Z4 w1746051736
+Z5 8../../src/rtl/matrixmul.sv
+Z6 F../../src/rtl/matrixmul.sv
+!i122 4
+L0 98 72
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+Z9 !s108 1749842924.000000
+Z10 !s107 ../../src/rtl/relu_to_lstm.sv|../../src/rtl/matrixmul.sv|../../src/rtl/lstm_layer.sv|../../src/rtl/lstm_cell.sv|
+Z11 !s90 -source|-lint|-sv|+incdir+../../src/rtl|../../src/rtl/lstm_cell.sv|../../src/rtl/lstm_layer.sv|../../src/rtl/matrixmul.sv|../../src/rtl/relu_to_lstm.sv|
+!i113 0
+Z12 o-source -lint -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -source -lint -sv +incdir+../../src/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 tCvgOpt 0
+n@f@s@m
+vlstm_cell
+R2
+R3
+!i10b 1
+!s100 O9LiEFVV:1NHD3PP[3@OU3
+IBPLK@NC:@lJ3oU;2=l8l]1
+S1
+R1
+Z15 w1749842839
+8../../src/rtl/lstm_cell.sv
+F../../src/rtl/lstm_cell.sv
+!i122 4
+L0 1 64
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vlstm_layer
+R2
+R3
+!i10b 1
+!s100 gDf8HAReo<Lh8SI;S=k132
+IUR>WngC=jV;:7FO16>gB;1
+S1
+R1
+R15
+8../../src/rtl/lstm_layer.sv
+F../../src/rtl/lstm_layer.sv
+!i122 4
+L0 1 39
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vrelu_to_lstm
+R2
+R3
+!i10b 1
+!s100 DNI_mR=4<[GPaVB8]1D<]3
+IOGFMZ5ZI9<[d^Y=j41R=?1
+S1
+R1
+w1749842924
+8../../src/rtl/relu_to_lstm.sv
+F../../src/rtl/relu_to_lstm.sv
+!i122 4
+L0 1 38
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vSequentialMultiplier
+R2
+R3
+!i10b 1
+!s100 ^_JXB=CIc`1[E07j9_:mO2
+I>0M>TY`U[OZ@C;KWilLmE2
+S1
+R1
+R4
+R5
+R6
+!i122 4
+L0 4 88
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+n@sequential@multiplier
+vtop
+R2
+R3
+!i10b 1
+!s100 konB_n3ED?K32h?eEm`ai0
+IOh3S03>c1:]8^;5zWEUM00
+S1
+R1
+R15
+8top.sv
+Ftop.sv
+!i122 5
+L0 1 259
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 top.sv|
+!s90 -source|-lint|-sv|+incdir+../../src/rtl|top.sv|
+!i113 0
+R12
+R13
+R14
+Ttop_opt
+!s110 1749842925
+VFBbL58PY`UX>Yj:BWXBU00
+04 3 4 work top fast 0
+!s102 +cover=sbfec
+!s124 OEM100
+o+acc +cover=sbfec
+R14
+ntop_opt
+OL;O;2021.3_1;73

@@ -1,0 +1,173 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/u/vinodk/Documents/HardwareAI/Project/Project/LSTMdesign.sv/run
+vFSM
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1749846359
+!i10b 1
+!s100 K68mkjQ1U6D]?_JQiNHNC3
+IgZ^[CEejlzH^VYkY[MKA]0
+S1
+R0
+Z3 w1746051736
+Z4 8../src/rtl/matrixmul.sv
+Z5 F../src/rtl/matrixmul.sv
+!i122 3
+L0 98 72
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+Z8 !s108 1749846358.000000
+Z9 !s107 ../src/rtl/matrixmul.sv|
+Z10 !s90 -sv|+incdir+../src/rtl|../src/rtl/matrixmul.sv|
+!i113 0
+Z11 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -sv +incdir+../src/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+n@f@s@m
+vlstm_cell
+R1
+Z14 !s110 1749846358
+!i10b 1
+!s100 9H6g_6O7B@TMm8HRAhR>53
+ID4mDm1`fJ97_Mb7[`ZaOP0
+S1
+R0
+w1749844235
+8../src/rtl/lstm_cell.sv
+F../src/rtl/lstm_cell.sv
+!i122 0
+L0 1 86
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 ../src/rtl/lstm_cell.sv|
+!s90 -sv|+incdir+../src/rtl|../src/rtl/lstm_cell.sv|
+!i113 0
+R11
+R12
+R13
+vlstm_layer
+R1
+R14
+!i10b 1
+!s100 6<X5<]35k7ka=36Tn4ZL<3
+Ii^6l7J;OflaRi]S^[KFF^3
+S1
+R0
+w1749844127
+8../src/rtl/lstm_layer.sv
+F../src/rtl/lstm_layer.sv
+!i122 1
+L0 1 43
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 ../src/rtl/lstm_layer.sv|
+!s90 -sv|+incdir+../src/rtl|../src/rtl/lstm_layer.sv|
+!i113 0
+R11
+R12
+R13
+vrelu_to_lstm
+R1
+R14
+!i10b 1
+!s100 :9_dMET`LGN?C]e:ZSgNe0
+I^EMiSR]TPYZLP5PY?U2TQ1
+S1
+R0
+w1749845418
+8../src/rtl/relu_to_lstm.sv
+F../src/rtl/relu_to_lstm.sv
+!i122 2
+L0 1 39
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 ../src/rtl/relu_to_lstm.sv|
+!s90 -sv|+incdir+../src/rtl|../src/rtl/relu_to_lstm.sv|
+!i113 0
+R11
+R12
+R13
+vSequentialMultiplier
+R1
+R2
+!i10b 1
+!s100 ^_JXB=CIc`1[E07j9_:mO2
+I8Ee>]eA>TmjcgK4=;Ve1W0
+S1
+R0
+R3
+R4
+R5
+!i122 3
+L0 4 88
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n@sequential@multiplier
+vtop
+R1
+R2
+!i10b 1
+!s100 8IUfM4C>AP8ITc[<J5Mcc2
+I_4KS[US;F8lY4Lkd_kb1i1
+S1
+R0
+w1749846359
+8../src/tb/top.sv
+F../src/tb/top.sv
+!i122 4
+L0 3 347
+R6
+R7
+r1
+!s85 0
+31
+!s108 1749846359.000000
+!s107 ../src/tb/top.sv|
+!s90 -sv|+incdir+../src/tb|../src/tb/top.sv|
+!i113 0
+R11
+!s92 -sv +incdir+../src/tb -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R13
+Ttop_opt
+R2
+V]QJMfHlkneZkd4BQIz2n>2
+04 3 4 work top fast 0
+!s124 OEM100
+o+acc
+R13
+ntop_opt
+OL;O;2021.3_1;73
