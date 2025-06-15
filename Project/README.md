@@ -11,7 +11,7 @@ The goal of this project is to demonstrate how speech recognition processing (si
 - Sequential modeling using LSTM logic.
 
 Key modules:
-- `TopDeepSpeech.sv`: Integrates all processing stages (MFCC × Weights → ReLU → LSTM).
+- Integrates all processing stages (MFCC × Weights → ReLU → LSTM).
 - FSM control logic for load, compute, and finalization phases.
 - Internal approximations of `sigmoid` and `tanh`.
 
