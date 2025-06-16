@@ -1,6 +1,5 @@
-Absolutely! Here is the full updated `README.md` content in pure Markdown format — ready to copy and paste:
 
-````markdown
+
 # Hardware for AI and ML
 
 Welcome to the coursework repository for **Hardware for AI and ML**, a practical journey through software and hardware co-design, verification, and synthesis tasks tailored for machine learning applications.
