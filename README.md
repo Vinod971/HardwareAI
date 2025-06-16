@@ -1,3 +1,6 @@
+Absolutely! Here is the full updated `README.md` content in pure Markdown format — ready to copy and paste:
+
+````markdown
 # Hardware for AI and ML
 
 Welcome to the coursework repository for **Hardware for AI and ML**, a practical journey through software and hardware co-design, verification, and synthesis tasks tailored for machine learning applications.
@@ -7,7 +10,6 @@ Welcome to the coursework repository for **Hardware for AI and ML**, a practical
 ## 📌 Project Spotlight: DeepSpeech AI
 
 This repository includes work toward the project **DeepSpeech AI**, where both software and hardware components have been implemented, verified, and synthesized to simulate AI operations efficiently.
-
 
 ---
 
@@ -28,9 +30,10 @@ Each weekly folder (`WC1` through `WC10`) contains:
    ```bash
    git clone https://github.com/Vinod971/HardwareAI.git
    cd HardwareAI
-   ```
+````
 
 2. Navigate to any weekly challenge:
+
    ```bash
    cd WC1
    ```
@@ -41,20 +44,28 @@ Each weekly folder (`WC1` through `WC10`) contains:
 
 ## 💡 Highlights
 
-- ✅ **Matrix Ops & CNNs** (WC1–WC2)
-- 🚀 **CUDA & PyTorch Benchmarks** (WC4–WC5)
-- 🧬 **Neuromorphic Computing** (WC6, WC10)
-- 📈 **Systolic Arrays & Sorting** (WC5)
-- 🧰 **Crossbar Sim & Memristor Models** (WC6, WC10)
-- 🎧 **Hardware AI Discussions** (WC9)
+* ✅ **Matrix Ops & CNNs** (WC1–WC2)
+* 🚀 **CUDA & PyTorch Benchmarks** (WC4–WC5)
+* 🧬 **Neuromorphic Computing** (WC6, WC10)
+* 📈 **Systolic Arrays & Sorting** (WC5)
+* 🧰 **Crossbar Sim & Memristor Models** (WC6, WC10)
+* 🎧 **Hardware AI Discussions** (WC9)
 
 ---
 
 ## 📎 Resources
 
-- Google Colab (for GPU-based challenges)
-- Python 3.8+, PyTorch, NumPy, Matplotlib
-- SystemVerilog Simulators (ModelSim, Vivado)
+* Google Colab (for GPU-based challenges)
+* Python 3.8+, PyTorch, NumPy, Matplotlib
+* SystemVerilog Simulators (ModelSim, Vivado)
+
+---
+
+## 🙏 Acknowledgments
+
+This project was completed under the expert guidance of **Professor Christof Teuscher**, whose insights and direction were instrumental in shaping the technical depth and learning experience throughout the course.
+
+Special thanks to **ChatGPT by OpenAI** for assisting with code structuring, documentation support, and technical explanations.
 
 ---
 
@@ -67,4 +78,7 @@ Maintained by [Vinod971](https://github.com/Vinod971) — passionate about AI, h
 ## 📬 Contribute
 
 Have ideas or improvements? Open a pull request or raise an issue. Feedback is always welcome!
+
+```
+
 
